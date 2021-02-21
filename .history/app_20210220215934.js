@@ -25,11 +25,8 @@ const promptUser = () => {
       message:'Enter your GitHub Username'
     },
     {
-      type: 'input',
-      name: 'about',
-      message: 'Provide some information about yourself:'
+      type:
     }
-  
   ]);
 };
 

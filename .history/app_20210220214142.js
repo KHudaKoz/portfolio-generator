@@ -11,26 +11,12 @@ const inquirer = require('inquirer');
 //   console.log('Portfolio complete! Check out index.html to see the output!');
 // });
 console.log(inquirer);
-
-const promptUser = () => {
-  return inquirer.prompt([
+inquirer
+  .prompt([
     {
       type: 'input',
       name: 'name',
       message: 'What is your name?'
-    },
-    {
-      type: 'input',
-      name: 'github',
-      message:'Enter your GitHub Username'
-    },
-    {
-      type: 'input',
-      name: 'about',
-      message: 'Provide some information about yourself:'
     }
-  
-  ]);
-};
-
-promptUser().then(answers => console.log(answers));
+  ])
+  .then(answers => console.log(answers));

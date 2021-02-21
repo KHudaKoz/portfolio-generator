@@ -29,7 +29,7 @@ const promptUser = () => {
       name: 'about',
       message: 'Provide some information about yourself:'
     }
-  
+    
   ]);
 };
 

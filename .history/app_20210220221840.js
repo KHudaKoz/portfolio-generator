@@ -29,8 +29,8 @@ const promptUser = () => {
       name: 'about',
       message: 'Provide some information about yourself:'
     }
-  
   ]);
 };
 
 promptUser().then(answers => console.log(answers));
+

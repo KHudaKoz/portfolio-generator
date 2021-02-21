@@ -27,9 +27,8 @@ const promptUser = () => {
     {
       type: 'input',
       name: 'about',
-      message: 'Provide some information about yourself:'
+      m
     }
-  
   ]);
 };
 
